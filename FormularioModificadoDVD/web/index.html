@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Formulario Modificado DVD</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            .alinharDireita {
+                text-align: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Dados DVD</h1>
+            
+            <form method="post" action="processaDadosDVD">
+                <table>
+                    <tr>
+                        <td class="alinharDireita">Numero:</td>
+                        <td><input type="text" name="numero"/></td>
+                    </tr> 
+                    <tr>
+                        <td class="alinharDireita">Titulo:</td>
+                        <td><input type="text" name="titulo"/></td>
+                    </tr> 
+                   <tr>
+                        <td class="alinharDireita">Ator/Atriz Principal:</td>
+                        <td><input type="text" name="atorP"/></td>
+                    </tr> 
+                    <tr>
+                        <td class="alinharDireita">Ator/Atriz Coadjuvante:</td>
+                        <td><input type="text" name="atorC"/></td>
+                    </tr>
+                    <tr>
+                        <td class="alinharDireita">Diretor/Diretora:</td>
+                        <td><input type="text" name="diretor"/></td>
+                    </tr>
+                    <tr>
+                        <td class="alinharDireita">Ano de Lançamento:</td>
+                        <td><input type="text" name="ano"/></td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="alinharDireita" colspan="2">
+                        <input type="submit" value="Enviar Dados"/>
+                        </td>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

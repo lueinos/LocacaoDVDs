@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Meu Primeiro Formulario Modificado</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            .alinharDireita {
+                text-align: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Dados Pessoais do Cliente</h1>
+            
+            <form method="post" action="processsaDadosCliente">
+                <table>
+                    <tr>
+                        <td class="alinharDireita">Nome:</td>
+                        <td><input type="text" name="nome"/></td>
+                    </tr> 
+                    <tr>
+                        <td class="alinharDireita">Sobrenome:</td>
+                        <td><input type="text" name="sobrenome"/></td>
+                    </tr> 
+                   <tr>
+                        <td class="alinharDireita">CPF:</td>
+                        <td><input type="text" name="cpf"/></td>
+                    </tr> 
+                    <tr>
+                        <td class="alinharDireita">Data de Nascimento:</td>
+                        <td><input type="text" name="data"/></td>
+                    </tr>
+                    <tr>
+                        <td class="alinharDireita">E-mail:</td>
+                        <td><input type="text" name="email"/></td>
+                    </tr>
+                    <tr>
+                        <td class="alinharDireita">Logradouro:</td>
+                        <td><input type="text" name="logradouro"/></td>
+                    </tr> 
+                    <tr>
+                        <td class="alinharDireita">Numero:</td>
+                        <td><input type="text" name="numero"/></td>
+                    </tr> 
+                    <tr>
+                        <td class="alinharDireita">Complemento:</td>
+                        <td><input type="text" name="complemento"/></td>
+                    </tr> 
+                    <tr>
+                        <td class="alinharDireita">Cidade:</td>
+                        <td><input type="text" name="cidade"/></td>
+                    </tr> 
+                    <tr>
+                        <td class="alinharDireita">Estado:</td>
+                        <td><input type="text" name="estado"/></td>
+                    </tr> 
+                    <tr>
+                        <td class="alinharDireita">CEP:</td>
+                        <td><input type="text" name="cep"/></td>
+                    </tr> 
+                    <tr>
+                        <td class="alinharDireita">Sexo:</td>
+                        <td>
+                            <select name="sexo">
+                                <option value="Feminino">Feminino</option>
+                                <option value="Masculino">Masculino</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="alinharDireita">Possui Filhos:</td>
+                        <td>
+                            <select name="filho">
+                                <option value="Sim">Sim</option>
+                                <option value="Nao">Não</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="alinharDireita">Observaçoes:</td>
+                        <td><input type="text" name="observacoes"/></td>
+                    </tr> 
+                    <tr>
+                        <td class="alinharDireita" colspan="2">
+                        <input type="submit" value="Enviar Dados"/>
+                        </td>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
